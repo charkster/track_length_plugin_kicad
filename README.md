@@ -4,26 +4,27 @@ This **Kicad PCB Editor python plugin** measures the selected track segments len
 This guide was used: https://dev-docs.kicad.org/en/python/pcbnew/
 
 This Youtube view was my inspiration: https://www.youtube.com/watch?v=WjDrvnIFPVY
-\
-\
-\
-**INSTALLATION**
 
-**(1)** Copy the **track_length_plugin_kicad.py** script and icon file **track_length_plugin_icon.png** to your kicad scripts directory.
+This on-line resistance calculation tool was used to ensure the plugin's results are accurate:\
+https://www.allaboutcircuits.com/tools/trace-resistance-calculator/
+
+
+## **INSTALLATION**
+
+### **(1)** Find plugin directory... **Tools -> External Plugins -> Open Plugin Directory**
+
+![picture](https://github.com/charkster/track_length_plugin_kicad/blob/main/docs/refresh_plugins_menu.png)
+
+### **(2)** Copy **track_length_plugin_kicad.py** and **track_length_plugin_icon.png** to your plugin directory.
 
 ![picture](https://github.com/charkster/track_length_plugin_kicad/blob/main/docs/kicad_scripts_directory.png)
 
+### **(3)** Refresh plugins... **Tools -> External Plugins -> Refresh Plugins**
 
 
-**(2) Tools -> External Plugins -> Refresh Plugins**
 
-![picture](https://github.com/charkster/track_length_plugin_kicad/blob/main/docs/refresh_plugins_menu.png)
-\
-\
-\
-**USAGE**
-\
-\
-**Select the track segments** using the **SHIFT** key and then **click** the new icon.
+## **USAGE**
+
+### **Select the track segments** using the **SHIFT** key and then **click** the new icon.
 
 ![picture](https://github.com/charkster/track_length_plugin_kicad/blob/main/docs/track_length_script.png)
